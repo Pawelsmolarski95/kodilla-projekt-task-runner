@@ -1,12 +1,12 @@
 
-/* Global */
+/* Variables */
 
     $color-one: #ddd;
     $color-two: #EA2027;
     $font-main: 'Montserrat', sans-serif;
     
     
-    
+ /* Global */   
     
     *, *::before, *::after {
 	
@@ -37,9 +37,9 @@
     }
     
     .logo {
-        font-size: 20px;
+        font-size: 45px;
         font-family:'Permanent Marker', cursive;
-        color:$color-one;
+        color: $color-one;
         letter-spacing: 3px;
         cursor: pointer;
     }
@@ -104,7 +104,7 @@
     
      h1.introduce {
         font-size: 75px;
-        color: var$color-one;
+        color: $color-one;
         font-family: $font-main;
         letter-spacing: 1px;
         margin: 20px 0 20px;
@@ -112,7 +112,7 @@
     
      h3.introduce {
         font-size: 25px;
-        color: var$color-one;
+        color: $color-one;
         margin-bottom: 50px;
      }
     
@@ -382,7 +382,7 @@
     
     footer ul li a {
         text-decoration: none;
-        color: var$color-one;
+        color: $color-one;
         font-size: 20px;
         font-family: $font-main;
         letter-spacing: 1px;
