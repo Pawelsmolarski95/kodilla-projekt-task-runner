@@ -1,6 +1,7 @@
 
+/* Global */
 
-    $color-one: white;
+    $color-one: #ddd;
     $color-two: #EA2027;
     $font-main: 'Montserrat', sans-serif;
     
@@ -36,15 +37,15 @@
     }
     
     .logo {
-        font-size: 55px;
+        font-size: 20px;
         font-family:'Permanent Marker', cursive;
-        color: $color-one;
+        color:$color-one;
         letter-spacing: 3px;
         cursor: pointer;
     }
     
     .logo span  {
-        color: color-two;
+        color:$color-two;
     }
     
     
